@@ -1,0 +1,230 @@
+/*=================CSS RESET=====================*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-spacing: 0;
+}
+/*=================CSS RESET END=====================*/
+
+@font-face {
+  font-family: "Angeline_Vintage";
+  src: url(../fonts/Angeline_Vintage.ttf) format('truetype');}
+@font-face {
+font-family: "DancingScript-Regular";
+src: url(../fonts/DancingScript-Regular.ttf)format('truetype'); }
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(../fonts/Montserrat-Bold.ttf)format('truetype'); }
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(../fonts/Roboto-Regular.ttf)format('truetype'); }
+@font-face {
+  font-family: "Roboto-Italic";
+  src: url(../fonts/Roboto-Italic.ttf)format('truetype'); }
+@font-face {
+  font-family: "Ekushey_Godhuli-Normal_bangla";
+  src: url(../fonts/Ekushey_Godhuli-Normal.ttf)format('truetype'); }
+
+@font-face {
+  font-family: "NikoshBAN_bangla";
+  src: url(../fonts/NikoshBAN.ttf)format('truetype'); }
+@font-face {
+  font-family: "SolaimanLipi_bangla";
+  src: url(../fonts/SolaimanLipi_20-04-07.ttf)format('truetype'); } 
+@font-face {
+  font-family: "AbhayaLibre";
+  src: url(../fonts/AbhayaLibre-Regular.ttf)format('truetype'); }   
+@font-face {
+  font-family: "Hack-Regular";
+  src: url(../fonts/Hack-Regular.ttf)format('truetype'); }
+  
+
+/*==================Header=====================*/
+  /*====================Header========================*/
+sup{
+  font-size: 11px;
+  font-weight: bold;
+}
+sub{
+ font-size: 11px; 
+ font-weight: bold;
+}
+.sorir{
+  font-family: "AbhayaLibre";
+  /*background-color: #F6EFEE;*/
+  /*background-color: #B1A6A5;*/
+  /*font-family: Helvetica, Tahoma, Arial;*/
+  /*background-color: #EEE3E2;*/
+  /*font-family: "Roboto-Regular";*/
+  /*font-family: "Ekushey_Godhuli-Normal_bangla";*/
+}
+.Blog-Nam{
+  font-family: "DancingScript-Regular";
+  font-weight: bold;
+  font-size: 30px;
+}
+.footer__{
+  font-family: "AbhayaLibre";
+  font-weight: bold;
+  font-size: 22px;
+}
+.footer_{
+  font-family: "Ekushey_Godhuli-Normal_bangla";
+  font-weight: bold;
+  font-size: 20px;
+}
+.Blog-Name{
+  font-family: "Ekushey_Godhuli-Normal_bangla";
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.faka-jayga {
+  padding-right: 40%;
+  /*align-content: center;*/
+  position: relative;
+}
+.main-tag{
+  padding-top: 5px;
+}
+
+/*==================END of header==========================*/
+.intro{
+  background-color: #CFC2C1;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.col-12{
+  padding-bottom: 15px;
+}
+.intro-graph{
+  margin: auto;
+  padding-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+/*=================Main====================*/
+.make_bold{
+  font-weight: bold;
+
+}
+.mt-20{
+  margin-top: 20px;
+}
+.card-title{
+  font-size: 25px;
+  font-weight: bold;
+}
+.problem-title{
+  font-size: 20px;
+  font-weight: none;
+}
+.container > a{
+  color: black;
+  margin-bottom: 10px;
+}
+.card-text-bangla{
+  font-family: "SolaimanLipi_bangla";
+  line-height: 25px;
+}
+pre { 
+    white-space: pre-wrap; 
+    word-break: break-word;
+    font-family: Hack-Regular;
+    height: auto;
+    width: auto;
+    /*font-weight: bold;*/
+    background-color: #CAC7C7 ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+.card-text{
+  line-height: 25px;
+  font-family: "Roboto-Regular";
+  /*font-family: "AbhayaLibre";*/
+
+}
+.card{
+  background-color: #DCDCDC;
+}
+.container > a:hover{
+    text-decoration: none;
+}
+.make-italic{
+  font-style: italic;
+}
+/*==============Footer================*/
+.about-me {
+  align-content: center;
+  background-color: #712B2B ;
+  color: #FFC0CB;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px; 
+
+}
+.col-2{
+  padding-top: 15px;
+  background-origin: 30%;
+}
+.col-2 > a:hover{
+    background-color: #231F20;
+    color: #FFC0CB;
+    text-decoration: none;
+}
+footer {
+  height: 80px;
+  margin-top: 50px;
+}
+footer>.container, footer .row {
+  height: 100%;
+}
+.footer-last{
+  padding-top: 0%;
+}

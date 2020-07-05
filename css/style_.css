@@ -1,0 +1,179 @@
+/*=================CSS RESET=====================*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-spacing: 0;
+}
+/*=================CSS RESET END=====================*/
+
+
+
+
+@font-face {
+  font-family: "Angeline_Vintage";
+  src: url(../fonts/Angeline_Vintage.ttf) format('truetype');}
+@font-face {
+font-family: "DancingScript-Regular";
+src: url(../fonts/DancingScript-Regular.ttf)format('truetype'); }
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(../fonts/Montserrat-Bold.ttf)format('truetype'); }
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(../fonts/Roboto-Regular.ttf)format('truetype'); }
+@font-face {
+  font-family: "Roboto-Italic";
+  src: url(../fonts/Roboto-Italic.ttf)format('truetype'); }
+@font-face {
+  font-family: "Ekushey_Godhuli-Normal_bangla";
+  src: url(../fonts/Ekushey_Godhuli-Normal.ttf)format('truetype'); }
+
+@font-face {
+  font-family: "NikoshBAN_bangla";
+  src: url(../fonts/NikoshBAN.ttf)format('truetype'); }
+@font-face {
+  font-family: "SolaimanLipi_bangla";
+  src: url(../fonts/SolaimanLipi_20-04-07.ttf)format('truetype'); } 
+@font-face {
+  font-family: "AbhayaLibre";
+  src: url(../fonts/AbhayaLibre-Regular.ttf)format('truetype'); }   
+  
+
+  /*====================Header========================*/
+.sorir{
+  font-family: "AbhayaLibre";
+  /*font-family: Helvetica, Tahoma, Arial;*/
+  /*background-color: #F6EFEE ;*/
+  /*background-color: #B1A6A5;*/
+  /*font-family: "Roboto-Regular";*/
+  /*font-family: "Ekushey_Godhuli-Normal_bangla";*/
+}
+.Blog-Nam{
+  font-family: "DancingScript-Regular";
+  font-weight: bold;
+  font-size: 30px;
+}
+.footer__{
+  font-family: "AbhayaLibre";
+  font-weight: bold;
+  font-size: 22px;
+}
+.footer_{
+  font-family: "Ekushey_Godhuli-Normal_bangla";
+  font-weight: bold;
+  font-size: 20px;
+}
+.Blog-Name{
+  font-family: "Ekushey_Godhuli-Normal_bangla";
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.faka-jayga {
+  padding-right: 40%;
+  /*align-content: center;*/
+  position: relative;
+}
+.main-tag{
+  padding-top: 5px;
+}
+/*==================END of Header===========================*/
+.boxes{
+  background-color: #231F20;
+  background-origin: 5%;
+  height: auto;
+}
+.mt-20 {
+  /*margin-top: 10px;*/
+  
+}
+.col-4{
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%; 
+  box-sizing: border-box;
+  margin: auto;
+}
+.sironam{
+  color: #EAEAEA;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.card > a:hover{
+    background-color:#712B2B;
+    color: #FFC0CB;
+    text-decoration: none;
+}
+.about-me {
+  align-content: center;
+  background-color: #712B2B ;
+  color: #FFC0CB;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px; 
+
+}
+.col-2{
+  padding-top: 15px;
+  background-origin: 30%;
+}
+.col-2 > a:hover{
+    background-color: #231F20;
+    color: #FFC0CB;
+    text-decoration: none;
+}
+footer {
+  height: 80px;
+  margin-top: 50px;
+}
+footer>.container, footer .row {
+  height: 100%;
+}
+.footer-last{
+  padding-top: 12%;
+}
